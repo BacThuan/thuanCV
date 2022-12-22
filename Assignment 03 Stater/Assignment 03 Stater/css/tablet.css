@@ -1,0 +1,120 @@
+@media (max-width: 768px) {
+  * {
+    margin: 0px;
+    font-family: sans-serif;
+  }
+  body {
+    width: 100%;
+    margin: auto;
+  }
+
+  .bg-grey {
+    background: #f7f7f7;
+  }
+
+  section > .container {
+    width: 768px;
+    margin: auto;
+    display: block;
+    padding: 30px 50px;
+  }
+
+  #nav-bar {
+    text-align: center;
+  }
+  #banner {
+    max-width: 100%;
+    position: relative;
+  }
+  /*Chinh banner*/
+  .anh-banner {
+    max-width: 100%;
+  }
+  .thongtin-banner {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 30%;
+  }
+  .anhdaidien {
+    display: none;
+  }
+  /*chinh nav-bar*/
+  .thongtin-nav {
+    display: none;
+  }
+  .bar {
+    width: 150px;
+  }
+  .ly-lich {
+    margin-right: 20px;
+  }
+  .chung-chi {
+    margin-left: 20px;
+  }
+  /*Chinh muc tieu va thong tin*/
+  #target,
+  #personal-info {
+    padding: 30px 20px;
+  }
+  #email {
+    width: 300px;
+  }
+
+  /* chinh job info */
+  #job-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .cactieuchi {
+    padding-bottom: 40px;
+  }
+  .list-sothich {
+    width: auto;
+  }
+
+  .view
+  /*chinh chung chi*/
+  #certificate.container {
+    max-width: 786px;
+    margin: 0;
+  }
+
+  .chungchi {
+    padding-left: 20px;
+  }
+  .c-d:nth-child(even) {
+    border-left: solid #d6c08d 2px;
+  }
+  .c-d {
+    width: 100%;
+    padding-right: 0;
+    display: grid;
+    grid-template-rows: 1fr minmax(0, 120px);
+  }
+
+  .pc-d {
+    width: 90%;
+    height: 150px;
+    border: none;
+  }
+  /* Chinh du an*/
+  .p-c {
+    margin-left: 0;
+    max-width: 786px;
+  }
+  .ada {
+    width: 100%;
+    height: 200px;
+  }
+  .thanhphan {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+  }
+  .vitri2 {
+    grid-column: 2/3;
+  }
+}
